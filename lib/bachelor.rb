@@ -662,7 +662,7 @@ end
 def all_contestants(data)
 
   contestants_arr = []
-  
+
   data.each{
     |season, contestant_data|
     contestant_data.each{
@@ -672,7 +672,7 @@ def all_contestants(data)
     }
   }
 
-  puts contestants_arr
+  puts ("arr: #{contestants_arr}")
 end
 
 all_contestants(example_JSON)
