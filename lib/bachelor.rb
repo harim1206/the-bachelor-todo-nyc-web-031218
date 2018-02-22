@@ -596,7 +596,7 @@ def get_first_name_of_season_winner(data, season)
   # code here
 
   data.each{
-    |hash_season, data|
+    |hash_season, contestant_data|
     #binding.pry
     #puts("hello")
     puts("hash_season: #{hash_season}, season: #{season}, #{hash_season == season}")
@@ -604,7 +604,7 @@ def get_first_name_of_season_winner(data, season)
 
     if hash_season == season
 
-      data.each{
+      contestant_data.each{
         |person|
         puts("Person's name: #{person["name"]}")
         puts("Person's status: #{person["status"]}, #{person["status"] == "Winner"}")
@@ -628,8 +628,14 @@ end
 
 get_first_name_of_season_winner(example_JSON, :"season 17")
 
+
+
+#Build a method, get_contestant_name, that takes in the data
+# hash and an occupation string and returns the name of the woman who has that occupation.
 def get_contestant_name(data, occupation)
   # code here
+
+  
 end
 
 def count_contestants_by_hometown(data, hometown)
