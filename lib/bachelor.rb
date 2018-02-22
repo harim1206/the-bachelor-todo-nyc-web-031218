@@ -739,6 +739,6 @@ def get_average_age_for_season(data, season)
   data.each{
     |data_season, array|
 
-    if data+season == season
+    if data_season == season
   }
 end
