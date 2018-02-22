@@ -660,6 +660,13 @@ end
 
 
 def all_contestants(data)
+  data.each{
+    |season, contestant_data|
+  }
+end
+
+all_contestants(example_JSON)
+
   
 end
 #Build a method, count_contestants_by_hometown, that takes in two arguments––the data
