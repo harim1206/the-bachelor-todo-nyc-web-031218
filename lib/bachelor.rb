@@ -615,7 +615,7 @@ def get_first_name_of_season_winner(data, season)
           puts person[:name].split[0]
           return person[:name].split[0]
         end
-        
+
       }
       binding.pry
 
