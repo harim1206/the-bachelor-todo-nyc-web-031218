@@ -662,6 +662,7 @@ end
 def all_contestants(data)
 
   contestants_arr = []
+  
   data.each{
     |season, contestant_data|
     contestant_data.each{
@@ -670,6 +671,8 @@ def all_contestants(data)
       contestants_arr << contestant
     }
   }
+
+  puts contestants_arr
 end
 
 all_contestants(example_JSON)
