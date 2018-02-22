@@ -672,11 +672,11 @@ def all_contestants(data)
     }
   }
 
-  # ("arr: #{contestants_arr}")
+  #puts ("arr: #{contestants_arr}")
   return contestants_arr
 end
 
-all_contestants(example_JSON)
+#all_contestants(example_JSON)
 
 
 
