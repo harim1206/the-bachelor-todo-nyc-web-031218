@@ -626,7 +626,7 @@ def get_first_name_of_season_winner(data, season)
 
 end
 
-#get_first_name_of_season_winner(example_JSON, :"season 17")
+get_first_name_of_season_winner(example_JSON, :"season 17")
 
 
 
