@@ -17,7 +17,7 @@ describe "bachelor" do
     end
   end
 
-=begin
+
   describe "#get_contestant_name" do
     it "returns 'Carly Waddel' when passed data and the string 'Cruise Ship Singer'" do
       expect(get_contestant_name(data, "Cruise Ship Singer")).to eq("Carly Waddell")
@@ -31,6 +31,8 @@ describe "bachelor" do
       expect(get_contestant_name(data, "Nonprofit director")).to eq("Dianna Martinez")
     end
   end
+
+=begin  
 
   describe "#count_contestants_by_hometown" do
     it "returns 2 when passed data and the string 'New York, New York'" do
