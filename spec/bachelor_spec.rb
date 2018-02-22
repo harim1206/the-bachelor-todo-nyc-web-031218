@@ -49,7 +49,7 @@ describe "bachelor" do
   end
 
 
-=begin  
+
   describe "#get_occupation" do
     it "returns 'Journalist' when passed data and the string 'Cranston, Rhode Island'" do
       expect(get_occupation(data, "Cranston, Rhode Island")).to eq("Journalist")
@@ -63,6 +63,8 @@ describe "bachelor" do
       expect(get_occupation(data, "Troutdale, Oregon")).to eq("Health Club Manager")
     end
   end
+
+=begin  
 
   describe "#get_average_age_for_season" do
     it "returns 26 when passed the data and the string 'season 10'" do
