@@ -637,6 +637,10 @@ def get_contestant_name(data, occupation)
 
   data.each{
     |season, contestant_data|
+
+    contestant_data.each{
+      |contestant|
+    }
   }
 
 
