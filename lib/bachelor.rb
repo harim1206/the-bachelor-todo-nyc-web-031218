@@ -747,9 +747,9 @@ def get_average_age_for_season(data, season)
         |contestant|
         total_age_sum += contestant["age"]
       }
-      
+
       average_age = total_age_sum/season_num_contestants
-      return
+      return average_age
     end
   }
 end
