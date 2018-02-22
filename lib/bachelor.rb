@@ -701,7 +701,7 @@ def count_contestants_by_hometown(data, hometown)
 
 end
 
-count_contestants_by_hometown(data, "New York, New York")
+count_contestants_by_hometown(example_JSON, "New York, New York")
 
 
 def get_occupation(data, hometown)
