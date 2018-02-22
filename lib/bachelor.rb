@@ -646,7 +646,7 @@ def get_contestant_name(data, occupation)
         return contestant["name"]
       end
     }
-    
+
   }
 
   return "N/A"
