@@ -691,7 +691,7 @@ def count_contestants_by_hometown(data, hometown)
   contestants_arr.each{
     |contestant|
 
-    binding.pry
+    #binding.pry
     if contestant[:hometown] == hometown
       counter += 1
     end
