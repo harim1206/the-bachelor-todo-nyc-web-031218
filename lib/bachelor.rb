@@ -690,6 +690,8 @@ def count_contestants_by_hometown(data, hometown)
   counter = 0
   contestants_arr.each{
     |contestant|
+
+    binding.pry
     if contestant["hometown"] == hometown
       counter += 1
     end
@@ -698,7 +700,7 @@ def count_contestants_by_hometown(data, hometown)
 
 
 
-  
+
 end
 
 def get_occupation(data, hometown)
