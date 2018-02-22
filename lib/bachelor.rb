@@ -695,13 +695,14 @@ def count_contestants_by_hometown(data, hometown)
     if contestant["hometown"] == hometown
       counter += 1
     end
-    
+
   }
 
 
-
-
 end
+
+count_contestants_by_hometown(data, "New York, New York")
+
 
 def get_occupation(data, hometown)
   # code here
