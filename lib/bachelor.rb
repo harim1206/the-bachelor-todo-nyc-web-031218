@@ -656,7 +656,7 @@ def get_contestant_name(data, occupation)
 
 end
 
-get_contestant_name(example_JSON, "Nanny/Freelance Journalist")
+#get_contestant_name(example_JSON, "Nanny/Freelance Journalist")
 
 
 
