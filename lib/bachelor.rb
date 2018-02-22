@@ -641,7 +641,9 @@ def get_contestant_name(data, occupation)
     contestant_data.each{
       |contestant|
 
-      
+      binding.pry
+
+
     }
   }
 
