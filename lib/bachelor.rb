@@ -713,6 +713,19 @@ count_contestants_by_hometown(example_JSON, "New York, New York")
 # It returns the occupation of the first contestant who hails from that hometown.
 def get_occupation(data, hometown)
   # code here
+  contestants_arr = all_contestants(data)
+
+  contestants_arr.each{
+    |contestant|
+
+    #binding.pry
+    if contestant["hometown"] == hometown
+      return contestant["occupation"]
+    end
+
+  }
+  puts ("counter: #{counter}")
+  return counter
 end
 
 def get_average_age_for_season(data, season)
