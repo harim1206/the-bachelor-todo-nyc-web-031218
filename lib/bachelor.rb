@@ -649,7 +649,7 @@ def get_contestant_name(data, occupation)
 
   }
 
-  return "N/A"
+  return nil
 
 end
 
