@@ -646,6 +646,7 @@ def get_contestant_name(data, occupation)
         return contestant["name"]
       end
     }
+    
   }
 
   return "N/A"
@@ -676,6 +677,3 @@ end
 def get_average_age_for_season(data, season)
   # code here
 end
-
-
-
