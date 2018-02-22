@@ -685,9 +685,9 @@ end
 # of the number of contestants who are from that hometown.
 def count_contestants_by_hometown(data, hometown)
   # code here
-  
-  contestants_arr = all_contestants(data)
 
+  contestants_arr = all_contestants(data)
+  counter = 0
   contestants_arr.each{
     |contestant|
     if contestant["hometown"] == hometown
