@@ -651,9 +651,6 @@ def get_contestant_name(data, occupation)
 
   return "N/A"
 
-
-
-
 end
 
 #get_contestant_name(example_JSON, "Nanny/Freelance Journalist")
