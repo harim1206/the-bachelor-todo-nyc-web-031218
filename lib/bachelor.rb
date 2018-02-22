@@ -745,7 +745,7 @@ def get_average_age_for_season(data, season)
       total_age_sum = 0
       array.each{
         |contestant|
-        total_age_sum += contestant["age"]
+        total_age_sum += contestant["age"].to_i
       }
 
       average_age = total_age_sum/season_num_contestants
