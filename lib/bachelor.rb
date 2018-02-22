@@ -635,7 +635,11 @@ get_first_name_of_season_winner(example_JSON, :"season 17")
 def get_contestant_name(data, occupation)
   # code here
 
-  
+  data.each{
+    |season, contestant_data|
+  }
+
+
 end
 
 def count_contestants_by_hometown(data, hometown)
