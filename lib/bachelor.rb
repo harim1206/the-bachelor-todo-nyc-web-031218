@@ -685,6 +685,8 @@ end
 # of the number of contestants who are from that hometown.
 def count_contestants_by_hometown(data, hometown)
   # code here
+
+  contestants_arr = all_contestants(data)
 end
 
 def get_occupation(data, hometown)
