@@ -731,12 +731,14 @@ end
 
 
 
-#Build a method, get_average_age_for_season, that takes in two arguments––the data hash and 
+#Build a method, get_average_age_for_season, that takes in two arguments––the data hash and
 #a string of a season. Iterate through the hash and return the average age of all of
 # the contestants for that season.
 def get_average_age_for_season(data, season)
   # code here
   data.each{
     |data_season, array|
+
+    if data+season == season
   }
 end
