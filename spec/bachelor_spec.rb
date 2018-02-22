@@ -64,7 +64,7 @@ describe "bachelor" do
     end
   end
 
-=begin  
+
 
   describe "#get_average_age_for_season" do
     it "returns 26 when passed the data and the string 'season 10'" do
@@ -77,6 +77,5 @@ describe "bachelor" do
       expect(get_average_age_for_season(data, "season 12")).to eq(26)
     end
   end
-=end
 
 end
