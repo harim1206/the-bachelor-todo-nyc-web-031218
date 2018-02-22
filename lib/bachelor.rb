@@ -658,7 +658,7 @@ end
 
 
 
-
+#helper method
 def all_contestants(data)
 
   contestants_arr = []
