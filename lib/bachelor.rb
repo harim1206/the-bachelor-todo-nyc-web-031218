@@ -641,11 +641,18 @@ def get_contestant_name(data, occupation)
     contestant_data.each{
       |contestant|
 
-      binding.pry
-
-
+      if contestant["occupation"] == occupation
+        puts contestant["name"]
+        return contestant["name"]
+      end
     }
   }
+
+  return "N/A"
+
+  binding.pry
+
+
 
 
 end
@@ -671,21 +678,4 @@ def get_average_age_for_season(data, season)
 end
 
 
-{
-   "season 19":[
-      {
-         "name":"Ashley Iaconetti",
-         "age":"26",
-         "hometown":"Great Falls, Virginia",
-         "occupation":"Nanny/Freelance Journalist",
-         "status":""
-      },
-      {
-         "name":"Becca Tilley",
-         "age":"26",
-         "hometown":"Shreveport, Louisiana[b]",
-         "occupation":"Chiropractic Assistant",
-         "status":""
-      }
-  ]
-}
+
