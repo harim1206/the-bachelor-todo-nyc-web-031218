@@ -606,7 +606,6 @@ def get_first_name_of_season_winner(data, season)
 
       data.each{
         |person|
-        #puts("Person: #{person}")
         puts("Person's name: #{person["name"]}")
         puts("Person's status: #{person["status"]}, #{person["status"] == "Winner"}")
 
