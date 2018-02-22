@@ -663,7 +663,7 @@ def all_contestants(data)
   data.each{
     |season, contestant_data|
 
-    
+    binding.pry
   }
 end
 
