@@ -32,7 +32,7 @@ describe "bachelor" do
     end
   end
 
-=begin  
+
 
   describe "#count_contestants_by_hometown" do
     it "returns 2 when passed data and the string 'New York, New York'" do
@@ -48,6 +48,8 @@ describe "bachelor" do
     end
   end
 
+
+=begin  
   describe "#get_occupation" do
     it "returns 'Journalist' when passed data and the string 'Cranston, Rhode Island'" do
       expect(get_occupation(data, "Cranston, Rhode Island")).to eq("Journalist")
