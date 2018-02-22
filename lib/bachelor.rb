@@ -740,6 +740,12 @@ def get_average_age_for_season(data, season)
     |data_season, array|
 
     if data_season == season
+
+      season_num_contestants = array.length
+      array.each{
+        |contestant|
+        contestant["age"]
+      }
     end
   }
 end
