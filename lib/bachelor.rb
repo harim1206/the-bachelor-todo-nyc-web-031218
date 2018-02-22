@@ -662,8 +662,11 @@ end
 def all_contestants(data)
   data.each{
     |season, contestant_data|
+    contestant_data.each{
+      |contestant|
 
-    binding.pry
+      contestants_arr << contestant
+    }
   }
 end
 
