@@ -610,10 +610,10 @@ def get_first_name_of_season_winner(data, season)
         puts("Person's name: #{person["name"]}")
         puts("Person's status: #{person["status"]}, #{person["status"] == "Winner"}")
 
-        if person[:status] == "Winner"
+        if person["status"] == "Winner"
 
-          puts person[:name].split[0]
-          return person[:name].split[0]
+          puts person["name"].split[0]
+          return person["name"].split[0]
         end
 
       }
