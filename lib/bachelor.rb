@@ -640,11 +640,21 @@ def get_contestant_name(data, occupation)
 
     contestant_data.each{
       |contestant|
+
+      
     }
   }
 
 
 end
+
+get_contestant_name(example_JSON, "Nanny/Freelance Journalist")
+
+
+
+
+
+
 
 def count_contestants_by_hometown(data, hometown)
   # code here
