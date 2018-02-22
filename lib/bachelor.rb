@@ -672,7 +672,7 @@ def all_contestants(data)
     }
   }
 
-  puts ("arr: #{contestants_arr}")
+  # ("arr: #{contestants_arr}")
   return contestants_arr
 end
 
