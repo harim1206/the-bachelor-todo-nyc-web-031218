@@ -606,7 +606,7 @@ def get_first_name_of_season_winner(data, season)
 
       contestant_data.each{
         |person|
-        puts("Person's name: #{person["name"]}")
+        puts("Person's name: #{person[:name]}")
         puts("Person's status: #{person["status"]}, #{person["status"] == "Winner"}")
 
         if person["status"] == "Winner"
@@ -669,3 +669,23 @@ end
 def get_average_age_for_season(data, season)
   # code here
 end
+
+
+{
+   "season 19":[
+      {
+         "name":"Ashley Iaconetti",
+         "age":"26",
+         "hometown":"Great Falls, Virginia",
+         "occupation":"Nanny/Freelance Journalist",
+         "status":""
+      },
+      {
+         "name":"Becca Tilley",
+         "age":"26",
+         "hometown":"Shreveport, Louisiana[b]",
+         "occupation":"Chiropractic Assistant",
+         "status":""
+      }
+  ]
+}
